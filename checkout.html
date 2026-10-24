@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=1280">
+<title>Оформление заказа — BASAR</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 10 10%22%3E%3Crect width=%2210%22 height=%2210%22 rx=%222%22 fill=%22%230f5c8c%22/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+<style>td:first-child,.status{white-space:nowrap}.demo-label{position:fixed;left:12px;bottom:12px;background:#1d2430cc;color:#fff;font-size:12px;padding:4px 10px;border-radius:20px;z-index:50;pointer-events:none}</style>
+</head>
+<body>
+<header class="header">
+  <div class="container header__in">
+    <a href="index.html" class="logo"><span class="logo__mark">B</span>BASAR</a>
+    <nav class="nav" id="nav"><a href="index.html">Главная</a><a href="catalog.html">Каталог</a><a href="about.html">О компании</a><a href="delivery.html">Доставка</a></nav>
+    <div class="header__actions">
+      <a href="account.html" class="icon-btn">👤 <span id="accountName">Ахмед</span></a>
+      <a href="cart.html" class="icon-btn cart-btn">🛒 <span class="badge">3</span></a>
+    </div>
+  </div>
+</header>
+<main>
+<section><div class="container"><h2>Оформление заказа</h2><div class="two"><div class="card"><label>ФИО *</label><input value="Ахмед Исаев" readonly><label>Телефон *</label><input value="+7 (928) 000-00-00" readonly><label>Регион доставки *</label><div class="combo"><input value="Чеченская Республика" readonly><div class="muted" style="font-size:13px;margin-top:4px">🔍 Выбор из списка всех регионов России с поиском по названию</div></div><div class="alert alert--ok" style="margin-top:12px">✅ Доставка по Чеченской Республике — <b>бесплатно</b>.</div><label>Адрес доставки *</label><input value="г. Грозный, ул. Примерная, д. 10" readonly><div class="alert" style="margin-top:12px">📦 Для других регионов России доставка через <b>СДЭК</b> — до пункта выдачи или курьером. Стоимость рассчитывается по тарифам СДЭК.</div><label>Комментарий</label><textarea rows="2" readonly>Позвонить за час до доставки</textarea><a class="btn btn--accent" style="margin-top:16px;width:100%;text-align:center" href="account.html">Подтвердить заказ</a></div><div class="card"><h3>Ваш заказ</h3><div style="display:flex;justify-content:space-between;gap:8px"><span>BASAR Фасад Про, 10 кг × 2</span><span>5 400 ₽</span></div><div style="display:flex;justify-content:space-between;gap:8px"><span>BASAR Интерьер Мат, 5 кг × 1</span><span>990 ₽</span></div><div style="display:flex;justify-content:space-between;gap:8px"><span>BASAR Гидро, 10 кг × 1</span><span>3 790 ₽</span></div><hr><p>Вес: 35 кг</p><p>Товары: 10 180 ₽</p><p>Доставка: бесплатно (Чеченская Республика)</p><p class="price">Итого: 10 180 ₽</p></div></div></div></section>
+</main>
+<footer class="footer">
+  <div class="container footer__in">
+    <div><div class="logo"><span class="logo__mark">B</span>BASAR</div><p>Здесь будет пара тёплых слов о BASAR<br>и адрес, где рождаются краски.</p></div>
+    <div><b>Покупателям</b><a href="catalog.html">Каталог</a><a href="delivery.html">Доставка и оплата</a><a href="account.html">Личный кабинет</a></div>
+    <div><b>Контакты</b><span>+7 (900) 000-00-00</span><span>info@basar.example</span><span>Пн–Сб 9:00–18:00</span></div>
+  </div>
+  <div class="container copy">© 2026 BASAR. Демонстрационный макет сайта. Цены примерные.</div>
+</footer>
+<div class="demo-label">Демо-макет</div>
+
+</body>
+</html>

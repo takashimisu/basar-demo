@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=1280">
+<title>Каталог — BASAR</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 10 10%22%3E%3Crect width=%2210%22 height=%2210%22 rx=%222%22 fill=%22%230f5c8c%22/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+<style>td:first-child,.status{white-space:nowrap}.demo-label{position:fixed;left:12px;bottom:12px;background:#1d2430cc;color:#fff;font-size:12px;padding:4px 10px;border-radius:20px;z-index:50;pointer-events:none}</style>
+</head>
+<body>
+<header class="header">
+  <div class="container header__in">
+    <a href="index.html" class="logo"><span class="logo__mark">B</span>BASAR</a>
+    <nav class="nav" id="nav"><a href="index.html">Главная</a><a href="catalog.html" style="color:var(--p)">Каталог</a><a href="about.html">О компании</a><a href="delivery.html">Доставка</a></nav>
+    <div class="header__actions">
+      <a href="account.html" class="icon-btn">👤 <span id="accountName">Ахмед</span></a>
+      <a href="cart.html" class="icon-btn cart-btn">🛒 <span class="badge">3</span></a>
+    </div>
+  </div>
+</header>
+<main>
+<section><div class="container"><h2>Каталог</h2><div class="filters"><button data-f="all" class="on">Все</button><button data-f="facade" class="">Фасадная</button><button data-f="interior" class="">Интерьерная</button><button data-f="universal" class="">Универсальная</button><button data-f="hydro" class="">С гидроизоляцией</button></div><div class="grid"><a class="card product" data-type="facade" href="product-fasad-pro.html" style="color:inherit"><div class="can" style="background:linear-gradient(160deg,#d9cbb355,#d9cbb322)"></div><div><span class="tag">Фасадная</span></div><h3>BASAR Фасад Про</h3><div class="muted">5 кг / 10 кг</div><div style="margin-top:auto;padding-top:10px"><span class="price">от 1 450 ₽</span> <span class="muted">· примерная цена</span></div></a><a class="card product" data-type="facade" href="product-fasad-silicone.html" style="color:inherit"><div class="can" style="background:linear-gradient(160deg,#b7c4cf55,#b7c4cf22)"></div><div><span class="tag">Фасадная</span></div><h3>BASAR Фасад Силикон</h3><div class="muted">5 кг / 10 кг</div><div style="margin-top:auto;padding-top:10px"><span class="price">от 1 890 ₽</span> <span class="muted">· примерная цена</span></div></a><a class="card product" data-type="interior" href="product-interior-mat.html" style="color:inherit"><div class="can" style="background:linear-gradient(160deg,#f1e6da55,#f1e6da22)"></div><div><span class="tag">Интерьерная</span></div><h3>BASAR Интерьер Мат</h3><div class="muted">5 кг / 10 кг</div><div style="margin-top:auto;padding-top:10px"><span class="price">от 990 ₽</span> <span class="muted">· примерная цена</span></div></a><a class="card product" data-type="interior" href="product-interior-wash.html" style="color:inherit"><div class="can" style="background:linear-gradient(160deg,#c9dccb55,#c9dccb22)"></div><div><span class="tag">Интерьерная</span></div><h3>BASAR Интерьер Моющаяся</h3><div class="muted">5 кг / 10 кг</div><div style="margin-top:auto;padding-top:10px"><span class="price">от 1 290 ₽</span> <span class="muted">· примерная цена</span></div></a><a class="card product" data-type="universal" href="product-universal.html" style="color:inherit"><div class="can" style="background:linear-gradient(160deg,#e3c9a055,#e3c9a022)"></div><div><span class="tag">Универсальная</span></div><h3>BASAR Универсал</h3><div class="muted">5 кг / 10 кг</div><div style="margin-top:auto;padding-top:10px"><span class="price">от 1 150 ₽</span> <span class="muted">· примерная цена</span></div></a><a class="card product" data-type="hydro" href="product-hydro.html" style="color:inherit"><div class="can" style="background:linear-gradient(160deg,#9fc3d855,#9fc3d822)"></div><div><span class="tag">С гидроизоляцией</span></div><h3>BASAR Гидро</h3><div class="muted">5 кг / 10 кг</div><div style="margin-top:auto;padding-top:10px"><span class="price">от 1 990 ₽</span> <span class="muted">· примерная цена</span></div></a></div><p class="muted">* Все цены примерные и указаны для демонстрации.</p></div></section>
+</main>
+<footer class="footer">
+  <div class="container footer__in">
+    <div><div class="logo"><span class="logo__mark">B</span>BASAR</div><p>Здесь будет пара тёплых слов о BASAR<br>и адрес, где рождаются краски.</p></div>
+    <div><b>Покупателям</b><a href="catalog.html">Каталог</a><a href="delivery.html">Доставка и оплата</a><a href="account.html">Личный кабинет</a></div>
+    <div><b>Контакты</b><span>+7 (900) 000-00-00</span><span>info@basar.example</span><span>Пн–Сб 9:00–18:00</span></div>
+  </div>
+  <div class="container copy">© 2026 BASAR. Демонстрационный макет сайта. Цены примерные.</div>
+</footer>
+<div class="demo-label">Демо-макет</div>
+<script>document.querySelectorAll('[data-f]').forEach(function(b){b.onclick=function(){var f=b.dataset.f;document.querySelectorAll('[data-f]').forEach(function(x){x.classList.toggle('on',x===b)});document.querySelectorAll('.product').forEach(function(c){c.style.display=(f==='all'||c.dataset.type===f)?'':'none'})}});</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=1280">
+<title>Личный кабинет — BASAR</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 10 10%22%3E%3Crect width=%2210%22 height=%2210%22 rx=%222%22 fill=%22%230f5c8c%22/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+<style>td:first-child,.status{white-space:nowrap}.demo-label{position:fixed;left:12px;bottom:12px;background:#1d2430cc;color:#fff;font-size:12px;padding:4px 10px;border-radius:20px;z-index:50;pointer-events:none}</style>
+</head>
+<body>
+<header class="header">
+  <div class="container header__in">
+    <a href="index.html" class="logo"><span class="logo__mark">B</span>BASAR</a>
+    <nav class="nav" id="nav"><a href="index.html">Главная</a><a href="catalog.html">Каталог</a><a href="about.html">О компании</a><a href="delivery.html">Доставка</a></nav>
+    <div class="header__actions">
+      <a href="account.html" class="icon-btn">👤 <span id="accountName">Ахмед</span></a>
+      <a href="cart.html" class="icon-btn cart-btn">🛒 <span class="badge">3</span></a>
+    </div>
+  </div>
+</header>
+<main>
+<section><div class="container"><h2>Личный кабинет</h2><div class="two"><div class="card"><h3>История заказов</h3><div style="overflow-x:auto"><table><tr><th>№</th><th>Дата</th><th>Состав</th><th>Доставка</th><th>Сумма</th><th>Статус</th></tr><tr><td>B-104512</td><td>18.10.2026</td><td>BASAR Фасад Про 10 кг × 2<br>BASAR Интерьер Мат 5 кг × 1<br>BASAR Гидро 10 кг × 1<div class="muted">35 кг</div></td><td>Чеченская Республика<div class="muted">Бесплатно</div></td><td><b>10 180 ₽</b></td><td><span class="status st-new">Новый</span></td></tr><tr><td>B-103877</td><td>02.10.2026</td><td>BASAR Универсал 10 кг × 3<div class="muted">30 кг</div></td><td>Республика Дагестан<div class="muted">СДЭК, 1 250 ₽</div></td><td><b>7 700 ₽</b></td><td><span class="status st-ship">Передан в доставку</span></td></tr><tr><td>B-102215</td><td>14.09.2026</td><td>BASAR Интерьер Моющаяся 5 кг × 4<br>BASAR Фасад Силикон 10 кг × 1<div class="muted">30 кг</div></td><td>Чеченская Республика<div class="muted">Бесплатно</div></td><td><b>8 710 ₽</b></td><td><span class="status st-done">Доставлен</span></td></tr></table></div><a class="btn btn--ghost btn--sm" href="cart.html" style="margin-top:10px">Повторить последний заказ</a></div>
+<div class="card"><h3>Профиль</h3><label>ФИО</label><input value="Ахмед Исаев" readonly><label>Телефон</label><input value="+7 (928) 000-00-00" readonly><label>Email</label><input value="client@example.ru" disabled><button type="button" class="btn" style="margin-top:14px">Сохранить</button> <a class="btn btn--ghost" href="login.html">Выйти</a></div></div></div></section>
+</main>
+<footer class="footer">
+  <div class="container footer__in">
+    <div><div class="logo"><span class="logo__mark">B</span>BASAR</div><p>Здесь будет пара тёплых слов о BASAR<br>и адрес, где рождаются краски.</p></div>
+    <div><b>Покупателям</b><a href="catalog.html">Каталог</a><a href="delivery.html">Доставка и оплата</a><a href="account.html">Личный кабинет</a></div>
+    <div><b>Контакты</b><span>+7 (900) 000-00-00</span><span>info@basar.example</span><span>Пн–Сб 9:00–18:00</span></div>
+  </div>
+  <div class="container copy">© 2026 BASAR. Демонстрационный макет сайта. Цены примерные.</div>
+</footer>
+<div class="demo-label">Демо-макет</div>
+
+</body>
+</html>
